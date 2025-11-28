@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1630"
-   version = "1.7">
+   LastUpgradeVersion = "2600"
+   version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "775D43641BCC256D002EDD8A"
-               BuildableName = "forceFullDesktopBar"
-               BlueprintName = "forceFullDesktopBar"
-               ReferencedContainer = "container:forceFullDesktopBar.xcodeproj">
+               BlueprintIdentifier = "775D43721BCC25E0002EDD8A"
+               BuildableName = "exposeHighlight.dylib"
+               BlueprintName = "exposeHighlight"
+               ReferencedContainer = "container:exposeHighlight.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,23 +34,18 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      launchStyle = "0"
+      launchStyle = "2"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      customLaunchCommand = "attach Dock&#10;expr (void*)dlopen(&quot;/Users/josh/Library/Developer/Xcode/DerivedData/exposeHighlight-cdelzdkvrurtdabylzqzjhsmwbrr/Build/Products/Debug/exposeHighlight.dylib&quot;, 0x02)"
+      customLaunchCommandPauseAfterCommands = "NO"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES"
-      viewDebuggingEnabled = "No">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "775D43641BCC256D002EDD8A"
-            BuildableName = "forceFullDesktopBar"
-            BlueprintName = "forceFullDesktopBar"
-            ReferencedContainer = "container:forceFullDesktopBar.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
+      allowLocationSimulation = "YES">
+      <PathRunnable
+         runnableDebuggingMode = "0"
+         FilePath = "/Users/josh/Library/Developer/Xcode/DerivedData/exposeHighlight-cdelzdkvrurtdabylzqzjhsmwbrr/Build/Products/Debug/exposeHighlight.dylib">
+      </PathRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -58,16 +53,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "775D43641BCC256D002EDD8A"
-            BuildableName = "forceFullDesktopBar"
-            BlueprintName = "forceFullDesktopBar"
-            ReferencedContainer = "container:forceFullDesktopBar.xcodeproj">
+            BlueprintIdentifier = "775D43721BCC25E0002EDD8A"
+            BuildableName = "exposeHighlight.dylib"
+            BlueprintName = "exposeHighlight"
+            ReferencedContainer = "container:exposeHighlight.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
